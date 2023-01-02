@@ -20,7 +20,7 @@ jobs:
         id: test
         uses: KRANTHI0918/get-github-email-by-username-action@v1.25
         with:
-          github-username: 'evvanErb' # This is the input username
+          github-username: 'KRANTHI0918' # This is the input username
           token: 'token' # This is an optional input of a PAT to use a more reliable way to get a user's email
           
       # Use the output from the `test` step
