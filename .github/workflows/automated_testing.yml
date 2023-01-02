@@ -13,9 +13,9 @@ jobs:
     steps:
       - name: get easy email
         id: get_easy_email_test
-        uses: evvanErb/get-github-email-by-username-action@main
+        uses: KRANTHI0918/get-github-email-by-username-action@main
         with:
-          github-username: 'evvanErb'
+          github-username: 'KRANTHI0918'
           token: ${{ secrets.BOT_TOKEN }}
 
       - name: Echo the output email
@@ -27,9 +27,9 @@ jobs:
     steps:
       - name: get easy email
         id: get_easy_email_test
-        uses: evvanErb/get-github-email-by-username-action@main
+        uses: KRANTHI0918/get-github-email-by-username-action@main
         with:
-          github-username: 'evvanErb'
+          github-username: 'KRANTHI0918'
 
       - name: Echo the output email
         run: echo "The email is ${{ steps.get_easy_email_test.outputs.email }}"
@@ -40,7 +40,7 @@ jobs:
     steps:
       - name: get email after bot
         id: get_email_after_bot_test
-        uses: evvanErb/get-github-email-by-username-action@main
+        uses: KRANTHI0918/get-github-email-by-username-action@main
         with:
           github-username: 'highly0'
           token: ${{ secrets.BOT_TOKEN }}
@@ -54,7 +54,7 @@ jobs:
     steps:
       - name: get email after bot
         id: get_email_after_bot_test
-        uses: evvanErb/get-github-email-by-username-action@main
+        uses: KRANTHI0918/get-github-email-by-username-action@main
         with:
           github-username: 'jaronson13'
           token: ${{ secrets.BOT_TOKEN }}
@@ -68,7 +68,7 @@ jobs:
     steps:
       - name: fail bad email
         id: fail_bad_email_test
-        uses: evvanErb/get-github-email-by-username-action@main
+        uses: KRANTHI0918/get-github-email-by-username-action@main
         with:
           github-username: 'hstought'
           token: ${{ secrets.BOT_TOKEN }}
@@ -82,7 +82,7 @@ jobs:
     steps:
       - name: get email after bot
         id: get_email_after_bot_test
-        uses: evvanErb/get-github-email-by-username-action@main
+        uses: KRANTHI0918/get-github-email-by-username-action@main
         with:
           github-username: 'evvvvvaaannnnneeerrrbbb'
           token: ${{ secrets.BOT_TOKEN }}
