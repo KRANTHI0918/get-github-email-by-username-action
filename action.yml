@@ -1,11 +1,11 @@
-name: 'Get GitHub Email from Username'
+name: 'Get GitHub users email address'
 description: 'Get a GitHub users email address'
 inputs:
 
   github-username:  # id of input
     description: 'Username to get email for'
     required: true
-    default: 'evvanErb'
+    default: 'Kranthi'
 
   token:  # id of input
     description: 'Token to login to get email'
