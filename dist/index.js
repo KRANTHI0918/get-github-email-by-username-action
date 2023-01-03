@@ -664,6 +664,99 @@ exports.OidcClient = OidcClient;
 
 /***/ }),
 
+/***/ 16:
+/***/ (function(module) {
+
+module.exports = require("tls");
+
+/***/ }),
+
+/***/ 25:
+/***/ (function(__unusedmodule, exports, __nccwpck_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "v1", {
+  enumerable: true,
+  get: function () {
+    return _v.default;
+  }
+});
+Object.defineProperty(exports, "v3", {
+  enumerable: true,
+  get: function () {
+    return _v2.default;
+  }
+});
+Object.defineProperty(exports, "v4", {
+  enumerable: true,
+  get: function () {
+    return _v3.default;
+  }
+});
+Object.defineProperty(exports, "v5", {
+  enumerable: true,
+  get: function () {
+    return _v4.default;
+  }
+});
+Object.defineProperty(exports, "NIL", {
+  enumerable: true,
+  get: function () {
+    return _nil.default;
+  }
+});
+Object.defineProperty(exports, "version", {
+  enumerable: true,
+  get: function () {
+    return _version.default;
+  }
+});
+Object.defineProperty(exports, "validate", {
+  enumerable: true,
+  get: function () {
+    return _validate.default;
+  }
+});
+Object.defineProperty(exports, "stringify", {
+  enumerable: true,
+  get: function () {
+    return _stringify.default;
+  }
+});
+Object.defineProperty(exports, "parse", {
+  enumerable: true,
+  get: function () {
+    return _parse.default;
+  }
+});
+
+var _v = _interopRequireDefault(__nccwpck_require__(810));
+
+var _v2 = _interopRequireDefault(__nccwpck_require__(572));
+
+var _v3 = _interopRequireDefault(__nccwpck_require__(293));
+
+var _v4 = _interopRequireDefault(__nccwpck_require__(638));
+
+var _nil = _interopRequireDefault(__nccwpck_require__(4));
+
+var _version = _interopRequireDefault(__nccwpck_require__(135));
+
+var _validate = _interopRequireDefault(__nccwpck_require__(634));
+
+var _stringify = _interopRequireDefault(__nccwpck_require__(960));
+
+var _parse = _interopRequireDefault(__nccwpck_require__(204));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
 /***/ 4594:
 /***/ ((__unused_webpack_module, exports) => {
 
