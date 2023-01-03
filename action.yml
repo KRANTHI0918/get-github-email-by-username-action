@@ -1,5 +1,10 @@
 name: 'Get GitHub users email address'
 description: 'Get a GitHub users email address'
+author: Kranthi
+branding:
+  icon: 'paperclip'
+  color: 'white'
+
 inputs:
 
   github-username:  # id of input
